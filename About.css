@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: whitesmoke;
+} 
+
+ul{
+    overflow: hidden;
+    list-style-type: none; 
+    background-color: rgb(15, 63, 82);
+}
+
+li{
+    float: right;
+}
+
+li a{
+    font-size: 16px;
+    font-family: Arial;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 20px;  
+}
+
+li a:hover{
+    font-size: 20px; 
+    border-bottom: 4px solid orange; 
+    color: orange;
+} 
+
+.one{  
+    float: left; 
+    font-family: Arial, Helvetica, sans-serif;  
+    height: 600px;
+    width: 45%; 
+    padding: 30px; 
+    color: rgb(0, 0, 0); 
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.two{ 
+    float: left; 
+    font-family: Arial, Helvetica, sans-serif;  
+    height: 600px;
+    width: 50%;
+} 
+
+.one h1{
+    font-size: 50px; 
+    margin-left: 80px;
+    margin-top: 60px;
+} 
+
+.one p{
+    line-height: 2rem;
+    padding: 10px; 
+    font-size: 17px;
+    margin-left: 80px; 
+} 
+
+.one a{
+    color: blue;
+    text-decoration: none;
+} 
+
+.one a:hover{
+    font-size: 18px; 
+    border-bottom: 1px solid green; 
+    color: black;
+}  
+
+.two img{
+    margin-left: 190px;
+} 
+
+button{
+    padding-left: 10px;
+    padding-right: 20px; 
+    margin-top: 5%;
+    margin-left: 14%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: red;
+    background-color:  rgb(15, 63, 82); 
+    height: 60px; 
+    width: 150px; 
+    color: white;
+} 
+
+button:hover{
+     background-color: rgb(255, 0, 0);
+     color: white; 
+     border-radius: 2%; 
+     border-color: yellow;
+}  
+
+.btm{
+    color: white;
+}

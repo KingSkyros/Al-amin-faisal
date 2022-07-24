@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: whitesmoke;
+} 
+
+ul{
+    overflow: hidden;
+    list-style-type: none; 
+    background-color: rgb(15, 63, 82);
+}
+
+li{
+    float: right;
+}
+
+li a{
+    font-size: 16px;
+    font-family: Arial;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 20px;  
+}
+
+.one li a:hover{
+    font-size: 20px; 
+    border-bottom: 4px solid orange; 
+    color: orange;
+}  
+
+.two{
+    width: 25%;
+    height: 50px;
+} 
+.one{
+    float: left;   
+    color: black; 
+    width: 100%; 
+    text-align: center; 
+    padding-bottom : 1%; 
+    font-size: 200%; 
+    margin-right: 5%; 
+} 
+.two{
+    width: 400px; 
+    margin-left: 5%;  
+}  
+
+.TWO{
+    background-color:White;
+    float: left; 
+    padding-right: 20%; 
+    margin-left: 35%;
+    padding-left: 5%; 
+    padding-top: 5%; 
+    padding-bottom: 1%; 
+}
+ 
+button{
+    width: 150px; 
+    margin-left: 50%; 
+    height: 27px;
+} 
+
+button{
+    background-color: rgb(15, 63, 82); 
+    color: white;
+    padding: 5px;
+    margin-left: -400px;
+    position: relative;
+    top: 30px; 
+}  
+
+li a:hover{
+    font-size: 20px; 
+    border-bottom: 4px solid orange; 
+    color: orange;
+}
+
+button:Hover{
+    background-color: chartreuse; 
+    border-color: red;
+} 
+
+textarea{
+    width: 400px;
+    margin-left: 20px;
+    max-width: 400px;
+    max-height: 70px; 
+    font-size: 190%;
+}
